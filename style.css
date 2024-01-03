@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(123, 64, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 0 170px; /* Sol ve sağdan 20 piksel boşluk bırak */
+}
+
+header {
+    background-color: #953fd2;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo-container {
+    display: inline-block; /* Logo'nun satır içinde yer almasını sağlar */
+    text-align: left;
+}
+
+#logo {
+
+    width: 100px; /* Logo'nun genişliği */
+    height: auto;
+    text-align: left;
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+}
+input{
+
+    padding: 8px;
+    width: 200px; /* Input alanının genişliğini belirle */
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px; /* Sol kenarı yuvarla, sağ kenarı düz yap */
+    outline: none; /* Kenarlık odaklandığında görünmesin */
+}
+
+button{
+    padding: 8px 16px;
+    background-color: #845be3;
+    border: 1px solid #ccc;
+    border-radius: 0 8px 8px 0; /* Sol kenarı düz yap, sağ kenarı yuvarla */
+    cursor: pointer;
+}
+
+
+.basket-container{
+    display: inline-block; /* Logo'nun satır içinde yer almasını sağlar */
+    text-align: right;
+}
+
+#basket{
+    height: 50px;
+    width: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* veya contain */
+  }
+
+h4{
+    background-color: rgb(158, 107, 206);
+}
